@@ -1,0 +1,95 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color: #ffffff;
+}
+/*-------------nav-----------*/
+
+header .fixed{
+	position:fixed;
+	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+	width: 100%;
+  	left:0;
+  	z-index:5;
+}
+
+
+.navbar{
+	margin-bottom: 0%;
+}
+.navbar-default .navbar-toggle{
+	border-color: transparent;
+	margin-left: 20px;
+}
+
+
+@media (max-width: 600px) {
+  .navbar-header img {
+    margin-left: 25%; 
+    width: 40%;
+    height: 40%;
+  }
+}
+
+.navbar-default{
+	background-color: transparent;
+	border-color:transparent;
+	margin-top: 2.0rem;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight:bold;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	background-color: transparent;
+	color: #3AB2BA;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #3AB2BA;
+}	
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+button.navbar-toggle{
+    margin-top: 0px;
+    padding-top: 5px;
+}
+/*-------------primero-----------*/
+body{
+    background-color:gray;
+}
+row{
+    background-color:white; 
+}
+.primero{
+    padding-top: 8%;
+}
+
+.primero img{
+    width:500px;
+    height:300px;
+}
+
+.tercero img {
+    width:400px;
+    height:200px;
+}
+ 
+.general {
+    background-color:white;
+} 
+
+
+
+
+
+
+
+
