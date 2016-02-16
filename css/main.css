@@ -9,7 +9,7 @@ body {
 
 header .fixed{
 	position:fixed;
-	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+	background: black;
 	width: 100%;
   	left:0;
   	z-index:5;
@@ -87,7 +87,13 @@ row{
 } 
 
 
-
+.caja {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+}
 
 
 
